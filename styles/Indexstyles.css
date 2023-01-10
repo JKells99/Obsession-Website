@@ -121,7 +121,9 @@
     word-wrap:break-word;
     
     height: 100vh;
-    width: 100vw;
+    width: 99vw;
+    margin-right: 20px;
+    
     
     
    
@@ -145,17 +147,18 @@
 #s1 p {
     color: #fcfcfc;;
     text-align: center;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 52px;
+    padding-right: 62px;
+    
    
     
     font-size: 1.5em;
     font-weight: bold;
-    background-color: rgba(136, 133, 133, 0.329);
+    background-color: rgba(7, 6, 6, 0.308);
  
     backdrop-filter: blur(0.5px);
     /* border: 1px solid black; */
-    border-radius: 100px;
+    border-radius: 80px;
     
     /* mix-blend-mode:overlay */
     
@@ -194,7 +197,7 @@
 }
 
 #s3{
-    background-image: url(../images/sven-mieke-MsCgmHuirDo-unsplash.jpg);
+    background-image: url(../images/gympic.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -206,6 +209,7 @@
    
     height: 100vh;
     width: 100vw;
+    background-color: rgb(0, 0, 0);
     backdrop-filter: blur(20px);
 
    
@@ -216,7 +220,7 @@
 #s3 h1{
     color: #f1f1f1;
     text-align: center;
-    padding-top: 48px;
+    padding-top: 64px;
     font-size: 64px;
     /* backdrop-filter: blur(1px); */
   
@@ -235,6 +239,10 @@
     
 }
 
+#s3 h4{
+  font-size: 36px;
+}
+
 ol p {
   font-size: 16px;
 }
@@ -242,13 +250,41 @@ ol p {
 #Content{
   backdrop-filter: blur(3px);
   height: 100vh;
+  background-color: rgba(0, 0, 0, 0.459);
  
 }
+
+
 
 .Service{
   font-size: xx-large;
 }
 
+.wrapper{
+  padding: 15px;
+  margin-right: 150px;
+}
+
+.content{
+  padding: 20px;
+}
+
+
+@media screen and (max-width: 700px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+
+  .content{
+    padding:50px
+  }
+
+}
 
 
 
