@@ -137,9 +137,11 @@
 
 .bottom-text {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 200px;
   font-size: 20px;
   font-weight: bold;
+  background-color: #fff;
+  color: #05cfff;
   }
 
   a:hover {
